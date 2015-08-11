@@ -1,0 +1,23 @@
+**********************************************
+FilmstripMaker
+**********************************************
+
+This is a simple program for making a filmstrip from
+a set of images.
+
+Why?
+I created this to aid in creating GUIs for audio plugins
+and other similar applications. I couldn't find a program
+anywhere that would stitch a series of images together to
+make a filmstrip.
+
+This uses the free open source library opencv.
+
+What I would like to improve:
+
+Add an option to create a horizontal strip instead of
+the vertical strip.
+
+Fix the problem where transparency in images is white
+in the output image.
+
