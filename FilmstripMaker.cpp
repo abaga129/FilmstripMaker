@@ -38,14 +38,14 @@ int main(int argc, const char** argv)
 	cout << endl;
 
 	
-
+	
 	for (int i = 0; i < numImages; i++){
 		cout << "Enter File name To Be Appended: ";
 		cin >> file;
 		cout << endl;
 
 		cout <<"File To Be Read: " << file << endl;
-		Mat img = imread(file, CV_LOAD_IMAGE_UNCHANGED);
+		Mat img = imread(file, -1);
 
 		if (img.empty()) //check whether the image is loaded or not
 		{
@@ -63,7 +63,8 @@ int main(int argc, const char** argv)
 		
 
 	}
-	
+
+
 	imwrite(outputFileName, finalImage);
 
 	cout << endl << "The Filmstrip was created and stored as " << outputFileName << endl << endl;
@@ -81,3 +82,4 @@ int main(int argc, const char** argv)
 
 	return 0;
 }
+
