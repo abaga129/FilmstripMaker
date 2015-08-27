@@ -8,7 +8,7 @@
 //(primarily in audio plugins where I need to have a single image contain several frames)
 //
 
-#include "stdafx.h"
+//#include "stdafx.h"
 
 #include "opencv2/highgui/highgui.hpp"
 #include "opencv2/stitching/stitcher.hpp"
@@ -16,7 +16,7 @@
 #include <iostream>
 #include <vector>
 #include <queue>
-#include <Windows.h>
+//#include <Windows.h>
 
 using namespace cv;
 using namespace std;
@@ -29,7 +29,7 @@ int main(int argc, const char** argv)
 	String file;
 	String outputFileName = "filmStrip.jpg";
 	String windowName = "Film Strip Maker v" + version;
-	SetConsoleTitle(TEXT("Filmstrip Maker"));
+	//SetConsoleTitle(TEXT("Filmstrip Maker"));
 
 	Mat finalImage;
 
