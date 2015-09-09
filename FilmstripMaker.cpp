@@ -8,17 +8,27 @@
 //(primarily in audio plugins where I need to have a single image contain several frames)
 //
 
+<<<<<<< HEAD
+=======
+//#include "stdafx.h"
+>>>>>>> 3ed8a2ebe719c193115d3b2ddbbfebad45836c17
 
 #include "opencv2/highgui/highgui.hpp"
 #include "opencv2/stitching/stitcher.hpp"
 
 #include <iostream>
 #include <vector>
+<<<<<<< HEAD
 #include <queue>  
+=======
+#include <queue>
+//#include <Windows.h>
+>>>>>>> 3ed8a2ebe719c193115d3b2ddbbfebad45836c17
 
 using namespace cv;
 using namespace std;
 
+<<<<<<< HEAD
 /***************************************************************
 Called for automatic reading of Images from the present working
 directory. For this to work, the files must be numbered in 

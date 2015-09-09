@@ -1,0 +1,2 @@
+g++ -std=c++11 -I"D:\SDKs\opencv\build\include" -L"D:\SDKs\opencv\build\x64\mingw\lib" FilmstripMaker.cpp -lopencv_calib3d249d.lib -lopencv_contrib249d.lib -lopencv_core249d.lib -lopencv_features2d249d.lib -lopencv_flann249d.lib -lopencv_gpu249d.lib -lopencv_highgui249d.lib -lopencv_imgproc249d.lib -lopencv_legacy249d.lib -lopencv_ml249d.lib -lopencv_nonfree249d.lib -lopencv_objdetect249d.lib -lopencv_photo249d.lib -lopencv_stitching249d.lib -lopencv_superres249d.lib -lopencv_ts249d.lib -lopencv_video249d.lib -lopencv_videostab249d.lib -o FilmstripMaker.exe
+PAUSE
